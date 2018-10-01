@@ -7,12 +7,12 @@
 #include <ArduinoJson.h>
 #include <SoftwareSerial.h>
 
-char auth[] = "4ca5863f2de8456aa90c15fde075c97b";
+char auth[] = "blynk token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "chetan sharma";
-char pass[] = "chetan2018";
+char ssid[] = "your-wifi-name";
+char pass[] = "pass";
 
 
 SoftwareSerial mySerial(D2,D3);
