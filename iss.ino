@@ -43,7 +43,7 @@ void conect(){
   WiFi.disconnect();
   delay(3000);
   Serial.println("Start");
-   WiFi.begin("chetan sharma","chetan2018");
+   WiFi.begin(ssid,pass);
   while ((!(WiFi.status() == WL_CONNECTED))){
     delay(300);
     Serial.print("...");
